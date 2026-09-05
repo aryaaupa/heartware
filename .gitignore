@@ -1,0 +1,20 @@
+# Private/local audio assets
+assets/private/*
+!assets/private/.gitkeep
+
+# Generated audio artifacts
+firmware/generated/song_data.h
+firmware/generated/*.bin
+firmware/generated/*.wav
+firmware/generated/*.raw
+
+# KiCad generated / local files
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+
+# OS/editor
+.DS_Store
+.vscode/
