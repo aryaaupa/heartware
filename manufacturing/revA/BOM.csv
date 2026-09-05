@@ -1,0 +1,10 @@
+Ref,Qty,Part,Suggested specification,Notes
+U1,1,Seeed Studio XIAO ESP32-C3,21 x 17.8 mm,MCU / flash / USB programming
+U2,1,MAX98357A I2S amplifier breakout,"3-5 V, mono class-D",Verify 7-pin order before assembly
+D1-D5,5,Warm-white LED,3 mm through-hole,Front-facing
+R1-R5,5,Resistor,220 ohm 0805,LED current limiting
+R6-R7,2,Resistor,5.1k 0805,USB-C CC pull-down
+D6,1,Schottky diode,SS14 SOD-123,Power isolation
+SW1,1,SPST slide switch,2-pin / ~4 mm pad spacing,Verify footprint
+J1,1,USB-C receptacle,16-pin USB2/power style,Verify exact receptacle footprint
+SPK,1,Speaker,"8 ohm 0.5-1 W, 28-40 mm",Connect to U2 breakout
