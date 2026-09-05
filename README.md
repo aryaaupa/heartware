@@ -1,7 +1,5 @@
 # heartware ♥
 
-An open-source, heart-shaped musical PCB keepsake designed as both a polished birthday gift and an embedded-systems portfolio project.
-
 Heartware is being developed as a custom PCB with real-time audio playback, programmable lighting, sensing, battery power, and low-power firmware. The physical gift is intended to play a user-supplied local copy of **“The Man Who Can't Be Moved” by The Script**; the copyrighted recording is intentionally **not** distributed in this repository.
 
 ## Project goals
@@ -44,6 +42,4 @@ That directory is excluded by `.gitignore`. The firmware/build pipeline will be 
 
 > Do not fabricate Rev A yet. Footprints, power design, battery circuitry, audio chain, and Rev B architecture still require design review and DRC/ERC validation.
 
-## Engineering evidence planned
 
-The project will document requirements, architecture tradeoffs, schematic capture, PCB layout, power budgeting, audio pipeline, firmware state machine, LED/audio synchronization, battery measurements, bring-up logs, oscilloscope captures, current consumption, and final hardware validation.
