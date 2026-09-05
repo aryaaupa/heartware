@@ -1,6 +1,6 @@
 # heartware ♥
 
-Heartware is being developed as a custom PCB with real-time audio playback, programmable lighting, sensing, battery power, and low-power firmware. The physical gift is intended to play a user-supplied local copy of **“The Man Who Can't Be Moved” by The Script**; the copyrighted recording is intentionally **not** distributed in this repository.
+Heartware is being developed as a custom PCB with real-time audio playback, programmable lighting, sensing, battery power, and low-power firmware. The physical gift is intended to play a user-supplied local copy of **“The Man Who Can't Be Moved” by The Script**; the copyrighted recording is intentionally **not** distributed in this repository. This project will be used to demonstrate basic engineering principles to high schoolers. 
 
 ## Project goals
 
