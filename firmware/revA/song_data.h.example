@@ -1,0 +1,5 @@
+#pragma once
+#include <stdint.h>
+#define SONG_SAMPLE_RATE 16000
+const uint8_t song_data[] = {0x00,0x00}; // replace locally with signed 16-bit PCM bytes
+const unsigned int song_data_len = sizeof(song_data);
