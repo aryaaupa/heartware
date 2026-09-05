@@ -1,0 +1,13 @@
+Ref,Qty,Part,Suggested MPN / family,Package / form,Purpose,Prototype note
+U1,1,ESP32-S3 controller,Seeed XIAO ESP32-S3,module,"MP3 decode, I2S, touch, LEDs, USB debug","Back-mounted, USB accessible at edge"
+U2,1,I2S Class-D amplifier,MAX98357A module,module,Digital audio to speaker,Module keeps Rev B hand-assemblable
+U3,1,LiPo charger + power-path,MCP73871-2CCI/ML,QFN-20 4x4,Charge/load sharing,Verify charger resistor values and thermal pad
+U4,1,3.3V buck-boost,TPS63031DSK,WSON-10 2.5x2.5,Stable 3.3V rail,Use recommended 2.2uH inductor and ceramics
+U5,1,3-axis accelerometer,LIS3DH,LGA-16 3x3,"Pick-up wake, motion interaction",I2C + INT1
+D1-D12,12,Addressable RGB LED,SK6812MINI-E,3535 reverse/mini family,Perimeter animations,Confirm exact pin orientation before assembly
+J1,1,USB-C receptacle,USB2.0 Type-C power-only family,mid-mount or top-mount,Charging input,Add 5.1k CC1/CC2 Rd resistors
+J2,1,LiPo connector,JST-PH-2 vertical/right-angle,2-pin,1S LiPo,Mark polarity on silk + copper
+J3,1,Speaker connector,JST-PH-2 or solder pads,2-pin,4-8 ohm speaker,Keep output pair short
+SW1,1,Slide switch,SPDT SMD low-profile,SMD,Master system power,Placed at lower-left edge
+SPK1,1,Mini speaker,8 ohm 1W 28-40mm,off-board,Audio output,Mount behind board or in printed stand
+BAT1,1,Protected LiPo,1S 3.7V 500-1000mAh,off-board,Portable power,Use protected cell for first build
